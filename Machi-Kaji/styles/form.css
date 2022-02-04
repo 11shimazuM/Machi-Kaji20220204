@@ -1,0 +1,147 @@
+html {
+  height: 100%;
+  width: 100%;
+  /* font-size: 80%; */
+  text-align: center;
+}
+/* body {
+  font-size: 1.4em;
+} */
+/* p#vw {
+  font-size: 5vw;
+}
+p#vh {
+  font-size: 5vh;
+} */
+.menu-item {
+  list-style: none;
+  display: inline-table;
+  padding: 0 2em;
+}
+hr{
+  border-width: 3px;
+  border-color: #43A047;
+}
+.align-light{
+    text-align: right;
+}
+footer p{
+  text-align: center;
+}
+input:required{
+  background: #ffcdd2;
+}
+input[type="email"]:invalid{
+  background: #ffcdd2;
+}
+input:valid{
+  background: transparent;
+}
+input:focus{
+  background: #DCEDC8;
+}
+.title {
+  margin-right: auto;
+  padding: 0 1em;
+}
+.subtitle{
+  margin-right: auto;
+}
+* {
+	float: none;
+	position: static;
+}
+.form{
+  width: 100%;
+  margin:0 auto;
+  border: 1px solid #9c9c9c;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.item{
+  /* display: flex; */
+  margin: 0 auto;  
+  border-radius: 1em;   /* 角丸 */
+  padding: 8px;
+  width:60%;
+}
+
+.label_left{
+  display: inline-block;
+  width:50%;
+  border-left: solid 5px rgba(250, 68, 226, 0.897);
+  vertical-align:top;
+  left:50%;
+  
+}
+
+.form input[type="checkbox"], 
+.form input[type="text"],
+.form input[type="password"] ,
+.form input[type="tel"], 
+.form input[type="date"], 
+.form input[type="email"] {
+  display: flex;
+  padding: 10px;
+  width: 65%;
+}
+
+.form textarea{
+  padding: 10px;
+  height: 100px;
+  font-size: 14px;
+  width: 65%;
+}
+
+.form select{
+  height: 35px;
+  width: 65%;
+}
+
+.btns{
+  text-align:center;
+  justify-content: center;
+}
+
+.form input[type="submit"]{
+  background: #bdf046;
+  color: white;
+  font-size:16px;
+  font-weight:bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+.form input[type="reset"]{
+  background: #333;
+  color: white;
+  font-size:16px;
+  font-weight:bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+.label-title{
+  color: rgba(250, 68, 226, 0.897);
+  font-size:30px;
+  text-align:center;
+  height:60px;
+  line-height:60px;
+}
+
+.mgr-20{
+  margin-right : 20px;
+}
+/* @media screen and (max-width: 960px) {
+  header{
+    color: #bdf046;   
+  }
+  
+}
+@media screen and (max-width: 768px) {
+  header{
+    color: #bdf046;
+  }
+
+} */
