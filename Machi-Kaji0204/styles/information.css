@@ -1,0 +1,55 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #222;
+  background-color: #ffc7fc;
+}
+
+
+/* information
+------------------------------ */
+#information {
+  padding: 80px 0 100px;
+  color: #222;
+  text-align: center;
+  background-color: #ffc7fc;
+}
+
+#information .wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+#information h1 {
+  display: inline-block;
+  margin: 0 auto 40px;
+  padding-bottom: 10px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-bottom: 4px solid #222;
+}
+
+#information article {
+  margin-bottom: 40px;
+  padding: 40px 40px 35px;
+  text-align: left;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+#information article .text_date {
+  font-size: 0.85rem;
+}
+
+#information article h2 {
+  margin-bottom: 30px;
+  padding-bottom: 12px;
+  font-size: 1.15rem;
+  line-height: 1.8em;
+  border-bottom: 2px solid #ffc7fc;
+}
+
+#information article .text_content {
+  line-height: 2.0em;
+  font-size: 0.85rem;
+}

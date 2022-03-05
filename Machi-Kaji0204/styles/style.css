@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.wrapper {
+  max-width: 1140px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pull{
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family:"ヒラギノ丸ゴ Pro W4";
+  font-weight: 700;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffc7fc;
+  padding: 0px 20px 0px 20px;
+}
+
+.sr-only {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  color: #fff;
+  background-color: #f62fec;
+  min-width: 120px;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+.button span {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .button span {
+    display: initial;
+  }
+}
+
+.button--icon {
+  min-width: initial;
+  padding: 0.5rem;
+}
+
+/* footer
+------------------------------ */
+#footer {
+  padding: 18px 0;
+  color: #fff;
+  font-size: 0.8rem;
+  text-align: center;
+  background-color: #D3A9E8;
+}
+
+/* bodyの写真用 
+--------------------------------*/
+.heiretsu{
+  display: flex;
+}
+
+/* bodyの文字を右に寄せる */
+.left {
+  left: 10%;
+}
+
+.mamano{
+  width: 50%;
+}
+
+.center{
+  text-align:center;
+  margin:0 auto;
+}
+
+.bodyLogocss{
+  text-align: center;
+}
+
+/* 画像を右テキストを左 */
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.box {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.Tright {
+  text-align: right;
+  width: 460px;
+}
+
+.Tleft {
+  text-align: left;
+  width: 460px;
+}
+
+
+.pict {
+  width: 50%;
+  margin-left: 0%;
+}
+
+.pict img {
+  width: 100%;
+  height:auto;
+}
+
+.pComment{
+  padding: 10px 0 24px 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2;
+    color: #fff;
+    font-weight: 900;
+}
+
+.p-housework_list_item .p-work_desc_name {
+  padding: 11px 35px;
+  padding-top: 11px;
+  padding-right: 35px;
+  padding-bottom: 11px;
+  padding-left: 35px;
+  background: rgba(249, 147, 244, 0.711);
+  color: #fff;
+  letter-spacing: 0.18em;
+  margin: 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1.188;
+}
+
+.p-housework_list_item .p-work_desc_text {
+  padding: 39px 29px;
+  font-size: 24px;
+  line-height: 1.75;
+}
+
+.desc{
+  background-color: #CEBAFF(32,141,85,0.8);
+
+}
+
+.p-housework_list_item {
+  padding: 25px 0;
+}
+
+@media screen and (max-width: 960px){
+.p-housework_list_item {
+    padding: 15px 0;
+}
+}
+
+p {
+  margin: 0 0 10px;
+}
+
